@@ -4,7 +4,7 @@ public class FibonacciExample
 {  
 	public static void Main(string[] args)  
 	{  
-		int n1=0,n2=1,n3,i;
+		int n1=0,n2=1,n3,i, l=5;
 		int number;    
 		Console.Write("Enter the number of elements: ");
 		number = int.Parse(Console.ReadLine());  
@@ -14,8 +14,11 @@ public class FibonacciExample
 			n3=n1+n2;    
 			Console.Write(n3+" ");
 			n1=n2;    
-			n2=n3;    
+			n2=n3;
+			
 		}
-		Console.ReadLine();    
+		Console.WriteLine(l);
+		Console.ReadLine();   
+		
 	} 
 } 
